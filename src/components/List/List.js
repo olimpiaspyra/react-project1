@@ -1,11 +1,11 @@
-import React from "react";
-import styles from "./List.scss";
-import Hero from "../Hero/Hero.js";
-import PropTypes from "prop-types";
-import Column from "../Column/Column.js";
-import { settings } from "../../data/dataStore.js";
-import ReactHtmlParser from "react-html-parser";
-import Creator from "../Creator/Creator";
+import React from 'react';
+import styles from './List.scss';
+import Hero from '../Hero/Hero.js';
+import PropTypes from 'prop-types';
+import Column from '../Column/Column.js';
+import { settings } from '../../data/dataStore.js';
+import ReactHtmlParser from 'react-html-parser';
+import Creator from '../Creator/Creator';
 
 class List extends React.Component {
   state = {
@@ -32,7 +32,7 @@ class List extends React.Component {
             ? state.columns[state.columns.length - 1].key + 1
             : 0,
           title,
-          icon: "list-alt",
+          icon: 'list-alt',
           cards: [],
         },
       ],
