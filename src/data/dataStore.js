@@ -12,9 +12,21 @@ export const settings = {
   },
   header: {
     icon: 'fas fa-cat',
-  },
+  },  
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt', 
+};
+
+export const infoContents = {
+  title: 'Things to do <sup>soon!</sup>',  
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dolorum dolore amet maiores architecto voluptatibus nisi quidem a animi sunt veniam similique accusantium odit fugiat ipsa exercitationem est repellat dolores!', 
+};
+
+export const faqContents = {
+  title: 'Things to do <sup>soon!</sup>',  
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vero voluptas. Ducimus quis voluptate sequi consequuntur vitae numquam molestiae nobis fuga maxime deserunt, eligendi ipsum magni corrupti quibusdam quae culpa!', 
 };
 
 export const pageContents = {
