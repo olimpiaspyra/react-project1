@@ -16,7 +16,7 @@ class SearchResults extends React.Component {
     icon: settings.defaultColumnIcon,
   }
   
-  render() {
+  render() {   
     const {title, icon, cards} = this.props;
     return (
       <section className={styles.component}>
@@ -31,7 +31,7 @@ class SearchResults extends React.Component {
             <Card key={cardData.id} {...cardData} />
           ))}
         </div>       
-      </section>
+      </section>       
     );
   }
 }
