@@ -7,13 +7,18 @@ import Icon from '../Icon/Icon.js';
 
 class SearchResults extends React.Component {
   static propTypes = {
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
     cards: PropTypes.array,
     icon: PropTypes.node,    
   }; 
 
   static defaultProps = {
     icon: settings.defaultColumnIcon,
+  }
+
+  componentDidMount () {
+    // eslint-disable-next-line react/prop-types
+    this.props.changeSearchString (this.props.id);
   }
   
   render() {   
