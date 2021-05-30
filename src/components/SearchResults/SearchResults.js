@@ -20,6 +20,11 @@ class SearchResults extends React.Component {
     // eslint-disable-next-line react/prop-types
     this.props.changeSearchString (this.props.id);
   }
+
+  componentDidUpdate(){
+    // eslint-disable-next-line react/prop-types
+    this.props.changeSearchString (this.props.id);
+  }
   
   render() {   
     const {title, icon, cards} = this.props;
